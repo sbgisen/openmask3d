@@ -1,9 +1,9 @@
 import hydra
 from omegaconf import DictConfig
 import numpy as np
-from openmask3d.data.load import Camera, InstanceMasks3D, Images, PointCloud, get_number_of_images
-from openmask3d.utils import get_free_gpu, create_out_folder
-from openmask3d.mask_features_computation.features_extractor import FeaturesExtractor
+from data.load import Camera, InstanceMasks3D, Images, PointCloud, get_number_of_images
+from utils import get_free_gpu, create_out_folder
+from mask_features_computation.features_extractor import FeaturesExtractor
 import torch
 import os
 

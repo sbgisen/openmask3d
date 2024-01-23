@@ -5,8 +5,8 @@ import imageio
 import torch
 from tqdm import tqdm
 import os
-from openmask3d.data.load import Camera, InstanceMasks3D, Images, PointCloud, get_number_of_images
-from openmask3d.mask_features_computation.utils import initialize_sam_model, mask2box_multi_level, run_sam
+from data.load import Camera, InstanceMasks3D, Images, PointCloud, get_number_of_images
+from mask_features_computation.utils import initialize_sam_model, mask2box_multi_level, run_sam
 
 class PointProjector:
     def __init__(self, camera: Camera, 

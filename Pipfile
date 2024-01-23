@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+torch = "*"
+torchvision = "*"
+pytorch-lightning = "==1.7.2"
+hydra-core = "==1.0.5"
+python-dotenv = "*"
+pyviz3d = "*"
+torch-scatter = "*"
+scipy = "*"
+imageio = "*"
+plyfile = "*"
+scikit-learn = "*"
+trimesh = "*"
+pointnet2 = {path = "./openmask3d/class_agnostic_mask_computation/third_party/pointnet2"}
+loguru = "*"
+open3d = "*"
+omegaconf = "==2.0.6"
+torchmetrics = "==0.11.0"
+pillow = "==9.3.0"
+ftfy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+python_full_version = "3.8.10"
